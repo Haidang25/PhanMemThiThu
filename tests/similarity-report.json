@@ -1,0 +1,35 @@
+[
+  {
+    "similarity": 0.941,
+    "ids": [
+      "E10Q30",
+      "E01Q42"
+    ],
+    "questions": [
+      "ACL có “permit any” trước “deny host 10.0.0.5”. Gói nguồn 10.0.0.5 có kết quả gì?",
+      "ACL có “deny host 10.0.0.5” trước “permit any”. Gói nguồn 10.0.0.5 có kết quả gì?"
+    ]
+  },
+  {
+    "similarity": 0.86,
+    "ids": [
+      "E05Q23",
+      "E07Q22"
+    ],
+    "questions": [
+      "Protocol=17 trong IPv4 chỉ giao thức nào?",
+      "Protocol=6 trong IPv4 thường chỉ giao thức nào?"
+    ]
+  },
+  {
+    "similarity": 0.611,
+    "ids": [
+      "E05Q18",
+      "E06Q17"
+    ],
+    "questions": [
+      "Trong FTP active truyền thống, bên nào chủ động mở kết nối dữ liệu?",
+      "Trong FTP passive, bên nào chủ động mở kết nối dữ liệu?"
+    ]
+  }
+]

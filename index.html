@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#102c4e" />
+    <meta
+      name="description"
+      content="Ôn thi Mạng máy tính: 10 đề, 500 câu hỏi có lời giải."
+    />
+    <title>Network Quiz · Ôn thi Mạng máy tính</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23102c4e'/%3E%3Cpath d='M8 23V9l16 14V9' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="data/exam01.js"></script>
+    <script defer src="data/exam02.js"></script>
+    <script defer src="data/exam03.js"></script>
+    <script defer src="data/exam04.js"></script>
+    <script defer src="data/exam05.js"></script>
+    <script defer src="data/exam06.js"></script>
+    <script defer src="data/exam07.js"></script>
+    <script defer src="data/exam08.js"></script>
+    <script defer src="data/exam09.js"></script>
+    <script defer src="data/exam10.js"></script>
+    <script defer src="js/storage.js"></script>
+    <script defer src="js/engine.js"></script>
+    <script defer src="data/study-notes.js"></script>
+    <script defer src="js/study.js"></script>
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Đến nội dung chính</a>
+    <header>
+      <div class="header-inner">
+        <a class="brand" href="#home"
+          ><span class="brand-icon">N<span>Q</span></span
+          ><span
+            >NETWORK<span class="brand-light"> QUIZ</span
+            ><small>ÔN THI MẠNG MÁY TÍNH</small></span
+          ></a
+        >
+        <nav aria-label="Điều hướng chính">
+          <a href="#home" data-nav="home">Đề thi thử</a
+          ><a href="#practice" data-nav="practice">Luyện tập</a
+          ><a href="#study" data-nav="study">Ôn tự luận</a
+          ><a href="#history" data-nav="history">Lịch sử</a>
+        </nav>
+        <span class="local-tag">● &nbsp; Không gian tự học</span>
+      </div>
+    </header>
+    <div id="storage-warning" class="warning" hidden role="status">
+      Không thể lưu vào trình duyệt. Bài làm dùng được trong tab này; hãy bật
+      lưu trữ để giữ tiến độ khi đóng trang.
+    </div>
+    <main id="main" tabindex="-1"></main>
+    <footer>
+      <span>NETWORK QUIZ <b> / </b> Học chắc kiến thức, tự tin vào kỳ thi.</span
+      ><a href="#sources">Nguồn tham khảo</a>
+    </footer>
+    <dialog id="modal" aria-labelledby="modal-title">
+      <form method="dialog">
+        <span class="eyebrow">NETWORK QUIZ</span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-text"></p>
+        <div class="actions">
+          <button value="cancel" class="btn secondary">Tiếp tục làm bài</button
+          ><button value="confirm" class="btn" id="modal-confirm">
+            Nộp bài
+          </button>
+        </div>
+      </form>
+    </dialog>
+    <div
+      id="announcement"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+    ></div>
+    <noscript>Bạn cần bật JavaScript để sử dụng bài thi.</noscript>
+  </body>
+</html>
